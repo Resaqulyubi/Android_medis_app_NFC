@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--Rekam medis menu-->
+    <dimen name="title">17dp</dimen>
+    <dimen name="rating">15dip</dimen>
+    <dimen name="genre">13dip</dimen>
+    <dimen name="year">12dip</dimen>
+
+
+    <dimen name="name">17dp</dimen>
+    <dimen name="worth">15dip</dimen>
+    <dimen name="source">13dip</dimen>
+    <dimen name="InYear">12dip</dimen>
+
+
+</resources>

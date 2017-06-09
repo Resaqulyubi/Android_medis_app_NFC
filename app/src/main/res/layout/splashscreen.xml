@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splashScreen"
+
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="444dp"
+        android:layout_height="333dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="POLIKLINIK"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:text="POLINEMA"
+        android:layout_below="@+id/editText"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+
+        android:layout_centerHorizontal="true"
+        android:typeface="monospace" />
+
+    <ProgressBar
+
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp" />
+
+</RelativeLayout>
